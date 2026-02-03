@@ -72,8 +72,8 @@ Response:
   "description": "Intro to Node.js runtime",
   "author": "Sujit",
   "publishDate": "2022-01-10T00:00:00.000Z",
-  "createdAt": "2026-02-03T10:00:00.000Z",
-  "updatedAt": "2026-02-03T10:00:00.000Z",
+  "createdAt": "2026-02-01T10:00:00.000Z",
+  "updatedAt": "2026-02-01T10:00:00.000Z",
   "__v": 0
 }
 Note: name, description, and author are required. publishDate is optional.
@@ -96,7 +96,7 @@ order	                    Sorting order: asc or desc (default: asc)
 
 Example Request:
 
-GET/books?searchTerm=node&author=Sujit&from=2022-01-01&to=2024-01-01&page=1&limit=5&sortBy=publishDate&order=desc
+GET/books?searchTerm=node&author=Keshab&from=2022-01-01&to=2024-01-01&page=1&limit=5&sortBy=publishDate&order=desc
                          
 
 Example Response:
@@ -140,7 +140,7 @@ Behavior Notes
 
 Seed Data
 The seed script adds ≥15 books with diverse:
-   . Authors: Keshab, Ravi, Anita, Rohit, Robert 
+   . Authors: Sujit, Ravi, Anita, Rohit, Robert 
    . Publish dates: 2017–2024
 
 Notes
